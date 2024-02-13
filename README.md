@@ -13,3 +13,7 @@ Desccription of structure.
 | ./docker-compose.yml   | docker-compose runscript                   |
 | ./postgres.env.example | env configurations example                 |
 ```
+
+Build steps:
+1. rename postgres.env.example into postgres.env
+2. run "docker-compose up --build"
