@@ -67,7 +67,7 @@ services:
       - ./data/postgres:/data/postgres
       - ./pg_dump:/data/pg_dump
       - ./cron/pgsql_backup.sh:/etc/cron.daily/pgsql_backup.sh
-      - ./cron/postgres.env:/etc/postgres.env
+      - ./postgres.env:/etc/postgres.env
     ports:
       - "5432:5432"
     expose:
